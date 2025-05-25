@@ -1,0 +1,375 @@
+.hash-collision-demo {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+.hash-collision-demo h2 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.hash-collision-demo p {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  color: #7f8c8d;
+}
+
+/* تعریف برخورد */
+.collision-definition {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+}
+
+.collision-definition h3 {
+  color: #2c3e50;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.collision-definition p {
+  margin-bottom: 1.5rem;
+}
+
+.collision-diagram {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto auto;
+  gap: 1rem;
+  align-items: center;
+  justify-items: center;
+  margin: 2rem 0;
+}
+
+.collision-diagram .input {
+  background-color: #3498db;
+  color: white;
+  padding: 1rem;
+  width: 80%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.collision-diagram .hash-function {
+  grid-column: 1 / span 2;
+  background-color: #e74c3c;
+  color: white;
+  padding: 1rem;
+  width: 60%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.collision-diagram .output {
+  grid-column: 1 / span 2;
+  background-color: #f39c12;
+  color: white;
+  padding: 1rem;
+  width: 60%;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.collision-diagram .arrow {
+  font-size: 1.5rem;
+  color: #7f8c8d;
+}
+
+.arrow-1,
+.arrow-2 {
+  margin-bottom: -1rem;
+}
+
+.arrow-3 {
+  grid-column: 1 / span 2;
+}
+
+/* بخش آزمایش */
+.experiment-section {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+}
+
+.experiment-section h3 {
+  color: #2c3e50;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.algorithm-selector {
+  margin-bottom: 1.5rem;
+}
+
+.algorithm-selector select {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: "Vazir", sans-serif;
+}
+
+.algorithm-description {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+  padding: 0.5rem;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+}
+
+.collision-test {
+  margin-bottom: 1.5rem;
+}
+
+.input-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.input-group {
+  flex: 1;
+  min-width: 250px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: "Vazir", sans-serif;
+}
+
+.hash-result {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  word-break: break-all;
+}
+
+.hash-result code {
+  background-color: #eee;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  font-family: monospace;
+}
+
+.collision-result {
+  padding: 1rem 0;
+}
+
+.result {
+  padding: 1rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.result-icon {
+  font-size: 1.5rem;
+}
+
+.result p {
+  margin: 0;
+}
+
+.collision {
+  background-color: #fef2f2;
+  border: 1px solid #fee2e2;
+  color: #b91c1c;
+}
+
+.no-collision {
+  background-color: #f0fdf4;
+  border: 1px solid #dcfce7;
+  color: #166534;
+}
+
+/* بخش شبیه‌سازی جستجوی برخورد */
+.brute-force-section {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #eee;
+}
+
+.brute-force-btn {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Vazir", sans-serif;
+  transition: background-color 0.3s;
+}
+
+.brute-force-btn:hover {
+  background-color: #2980b9;
+}
+
+.brute-force-btn:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+.progress-container {
+  margin-top: 1rem;
+}
+
+.progress-bar {
+  background-color: #eee;
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #3498db;
+  transition: width 0.3s ease-out;
+}
+
+/* بخش برخوردها */
+.collisions-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.known-collisions,
+.found-collisions {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.known-collisions h3,
+.found-collisions h3 {
+  color: #2c3e50;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.collision-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.collision-item {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-radius: 5px;
+  border-right: 3px solid #3498db;
+}
+
+.collision-item h4 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+}
+
+.collision-item p {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+.collision-item code {
+  background-color: #eee;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  font-family: monospace;
+  font-size: 0.8rem;
+  word-break: break-all;
+}
+
+.collision-info {
+  margin-bottom: 1rem;
+}
+
+.use-collision-btn {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Vazir", sans-serif;
+  font-size: 0.9rem;
+  transition: background-color 0.3s;
+}
+
+.use-collision-btn:hover {
+  background-color: #219653;
+}
+
+/* بخش اطلاعات */
+.info-box {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.info-box h3 {
+  color: #2c3e50;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.info-box ul {
+  padding-right: 1.5rem;
+}
+
+.info-box li {
+  margin-bottom: 0.5rem;
+}
+
+/* واکنش‌گرا */
+@media (max-width: 768px) {
+  .collisions-section {
+    grid-template-columns: 1fr;
+  }
+
+  .input-container {
+    flex-direction: column;
+  }
+
+  .collision-diagram {
+    grid-template-columns: 1fr;
+  }
+
+  .collision-diagram .input {
+    width: 100%;
+  }
+
+  .collision-diagram .hash-function,
+  .collision-diagram .output {
+    grid-column: 1;
+    width: 100%;
+  }
+
+  .arrow-3 {
+    grid-column: 1;
+  }
+}

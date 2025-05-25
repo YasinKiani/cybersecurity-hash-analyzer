@@ -1,0 +1,416 @@
+.visual-hash {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.visual-hash h2 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.visual-hash p {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  color: #7f8c8d;
+}
+
+.input-section {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-section .form-group {
+  flex-grow: 1;
+  margin-bottom: 0;
+}
+
+.visualizations {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 2rem;
+}
+
+.visualization-card {
+  flex: 1;
+  min-width: 300px;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.visualization-card h3 {
+  margin-top: 0;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  align-self: flex-start;
+}
+
+.visualization-card p {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #666;
+  align-self: flex-start;
+}
+
+.color-grid {
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.identicon {
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.identicon-grid {
+  border: 1px solid #eee;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.info-section {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.info-section h3 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+.info-section p {
+  color: #555;
+}
+
+.info-section ul {
+  margin-top: 0.5rem;
+  padding-left: 20px;
+}
+
+.info-section li {
+  margin-bottom: 5px;
+  color: #555;
+}
+
+/* سبک‌های بخش نمونه‌های آواتار */
+.identicon-examples {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  margin-top: 2rem;
+}
+
+.identicon-examples h3 {
+  color: #2c3e50;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+.examples-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.example-item {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.example-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.example-image {
+  width: 70px;
+  height: 70px;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #eee;
+  flex-shrink: 0;
+}
+
+.example-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.example-info {
+  flex: 1;
+}
+
+.example-info h4 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+}
+
+.example-info p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.example-link {
+  display: inline-block;
+  margin-top: 8px;
+  color: #3498db;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+.example-link:hover {
+  text-decoration: underline;
+}
+
+/* بخش نمونه‌های تعاملی */
+.interactive-examples {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #eee;
+}
+
+.interactive-examples h4 {
+  color: #2c3e50;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.interactive-container {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.input-form {
+  margin-bottom: 1.5rem;
+}
+
+.interactive-input {
+  width: 100%;
+  padding: 0.75rem;
+  font-family: "Vazir", sans-serif;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.interactive-examples-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.interactive-example {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.interactive-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.interactive-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.example-description {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}
+
+.example-description p {
+  color: #666;
+  line-height: 1.6;
+}
+
+/* سبک‌های جدید برای نمایش آواتارها */
+.online-avatars-section {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #eee;
+}
+
+.online-avatar-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.online-avatar-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.online-avatar-image {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #eee;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.online-avatar-image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.online-avatar-item h5 {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.avatar-error {
+  font-size: 0.8rem;
+  color: #e74c3c;
+  text-align: center;
+}
+
+/* سبک‌های برای آواتارهای داخلی SVG */
+.embedded-examples {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #eee;
+}
+
+.embedded-container {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.input-container {
+  margin-bottom: 1.5rem;
+}
+
+.embedded-input {
+  width: 100%;
+  padding: 0.75rem;
+  font-family: "Vazir", sans-serif;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.avatars-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.avatar-demo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.embedded-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f0f0f0;
+}
+
+.github-style {
+  background-color: #f4f4f4;
+  padding: 5px;
+}
+
+.gravatar-style {
+  border-radius: 50%;
+}
+
+.dicebear-style {
+  border: 1px solid #eee;
+}
+
+@media (max-width: 768px) {
+  .visualizations {
+    flex-direction: column;
+  }
+
+  .visualization-card {
+    min-width: auto;
+  }
+
+  .examples-container {
+    grid-template-columns: 1fr;
+  }
+
+  .example-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .example-image {
+    margin-bottom: 0.5rem;
+  }
+
+  .interactive-examples-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .avatars-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .avatar-demo {
+    margin-bottom: 1rem;
+  }
+}
+
+/* ایجاد پوشه برای assets/images */
+.demo-avatar-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

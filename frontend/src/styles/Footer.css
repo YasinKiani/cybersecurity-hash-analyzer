@@ -1,0 +1,137 @@
+.footer {
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  color: white;
+  padding: 3rem 0 1.5rem;
+  position: relative;
+  margin-top: 3rem;
+}
+
+.footer::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 0;
+  right: 0;
+  height: 20px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 20' preserveAspectRatio='none'%3E%3Cpath d='M0,0 C300,20 600,0 900,10 L1200,0 L1200,20 L0,20 Z' fill='%232c3e50'/%3E%3C/svg%3E")
+    no-repeat;
+  background-size: 100% 100%;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  gap: 2rem;
+}
+
+.footer-section {
+  flex: 1 1 300px;
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+  position: relative;
+  min-width: 250px;
+}
+
+.footer-section h3 {
+  color: white;
+  position: relative;
+  padding-bottom: 0.75rem;
+  margin-bottom: 1.25rem;
+  font-size: 1.2rem;
+  border-bottom: 2px solid #3498db;
+  display: inline-block;
+  font-family: "Vazir", sans-serif;
+}
+
+.footer-section h3::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40px;
+  height: 3px;
+  background: linear-gradient(to right, #3498db, #2ecc71);
+  border-radius: 3px;
+}
+
+.footer-section p {
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 1rem;
+  line-height: 1.8;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-right: 20px;
+  margin: 10px 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 0.75rem;
+  position: relative;
+  padding-right: 1.25rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-section ul li::before {
+  content: "•";
+  position: absolute;
+  right: 0;
+  color: #3498db;
+}
+
+.footer-social {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  background: #3498db;
+  transform: translateY(-3px);
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 1.5rem;
+  margin-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.9rem;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .footer-section {
+    flex: 0 0 100%;
+    text-align: center;
+  }
+}
