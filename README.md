@@ -128,8 +128,8 @@ npm --version   # Should be v6 or later
 
 ```bash
 # Clone the repository
-git clone https://github.com/yasinkiani/hash-visualization.git
-cd hash-visualization
+git clone https://github.com/yasinkiani/cybersecurity-hash-analyzer.git
+cd cybersecurity-hash-analyzer
 
 # Install backend dependencies
 cd backend
@@ -217,7 +217,7 @@ graph TD
 ### 📂 Project Structure
 
 ```
-📦 hash-visualization/
+📦 cybersecurity-hash-analyzer/
 ├── 📁 backend/
 │   ├── 🎯 server.js          # Express server
 │   ├── 📁 controllers/       # API controllers
@@ -285,7 +285,7 @@ graph TD
 
 ### 🌟 **We Welcome Contributions!**
 
-<img src="https://contrib.rocks/image?repo=yasinkiani/hash-visualization" alt="Contributors"/>
+<img src="https://contrib.rocks/image?repo=yasinkiani/cybersecurity-hash-analyzer" alt="Contributors"/>
 
 </div>
 
@@ -317,7 +317,7 @@ graph TD
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=yasinkiani&repo=hash-visualization&show_icons=true&theme=radical" alt="GitHub Stats"/>
+<img src="https://github-readme-stats.vercel.app/api?username=yasinkiani&repo=cybersecurity-hash-analyzer&show_icons=true&theme=radical" alt="GitHub Stats"/>
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yasinkiani&layout=compact&theme=radical" alt="Top Languages"/>
 
@@ -375,9 +375,9 @@ graph TD
 
 <div align="center">
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **GNU General Public License v3.0** - see the [LICENSE](LICENSE) file for details.
 
-<img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="MIT License"/>
+<img src="https://img.shields.io/badge/License-GNU General Public License v3.0-yellow.svg?style=for-the-badge" alt="GNU General Public License v3.0 "/>
 
 ---
 
