@@ -26,7 +26,6 @@
 
 <p align="center">
   <a href="#-features">Features</a> •
-  <a href="#-demo">Demo</a> •
   <a href="#-installation">Installation</a> •
   <a href="#-usage">Usage</a> •
   <a href="#-contributing">Contributing</a>
@@ -97,36 +96,7 @@
 </tr>
 </table>
 
-## 🚀 Demo
 
-<div align="center">
-
-### 📸 **Live Screenshots**
-
-<table>
-<tr>
-<td align="center">
-<img src="https://via.placeholder.com/400x250/1a1a1a/00d4aa?text=Hash+Generator" alt="Hash Generator" width="400"/>
-<br><strong>🔐 Hash Generator Interface</strong>
-</td>
-<td align="center">
-<img src="https://via.placeholder.com/400x250/1a1a1a/ff6b6b?text=Visual+Hash" alt="Visual Hash" width="400"/>
-<br><strong>🎨 Visual Hash Representation</strong>
-</td>
-</tr>
-<tr>
-<td align="center">
-<img src="https://via.placeholder.com/400x250/1a1a1a/4ecdc4?text=Password+Cracker" alt="Password Cracker" width="400"/>
-<br><strong>🛡️ Password Security Demo</strong>
-</td>
-<td align="center">
-<img src="https://via.placeholder.com/400x250/1a1a1a/ffe66d?text=Collision+Demo" alt="Collision Demo" width="400"/>
-<br><strong>💥 Hash Collision Visualization</strong>
-</td>
-</tr>
-</table>
-
-</div>
 
 ## 🛠️ Tech Stack
 
