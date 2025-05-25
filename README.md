@@ -399,34 +399,7 @@ graph TD
 
 </div>
 
-## 👨‍💻 Author
 
-<div align="center">
-
-<table>
-<tr>
-<td align="center">
-<img src="https://avatars.githubusercontent.com/u/placeholder?v=4" width="100px;" alt="Yasin Kiani"/>
-<br />
-<sub><b>🧑‍💻 Yasin Kiani (یاسین کیانی)</b></sub>
-<br />
-<sub>Full-Stack Developer & Security Enthusiast</sub>
-<br />
-<br />
-<a href="https://github.com/yasinkiani">
-<img src="https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
-</a>
-<a href="https://linkedin.com/in/yasinkiani">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
-<a href="mailto:yasin.kiani@example.com">
-<img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
-</a>
-</td>
-</tr>
-</table>
-
-</div>
 
 ## 📜 License
 
