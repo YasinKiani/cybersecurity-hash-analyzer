@@ -11,10 +11,10 @@
 </p>
 
 <p align="center">
-  <img alt="GitHub Stars" src="https://img.shields.io/github/stars/yasinkiani/hash-visualization?style=for-the-badge&logo=github&color=yellow">
-  <img alt="GitHub Forks" src="https://img.shields.io/github/forks/yasinkiani/hash-visualization?style=for-the-badge&logo=github&color=blue">
+  <img alt="GitHub Stars" src="https://img.shields.io/github/stars/yasinkiani/cybersecurity-hash-analyzer?style=for-the-badge&logo=github&color=yellow">
+  <img alt="GitHub Forks" src="https://img.shields.io/github/forks/yasinkiani/cybersecurity-hash-analyzer?style=for-the-badge&logo=github&color=blue">
   <img alt="License" src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge">
-  <img alt="Version" src="https://img.shields.io/badge/Version-2.0.0-brightgreen?style=for-the-badge">
+  <img alt="Version" src="https://img.shields.io/badge/Version-1.0.0-brightgreen?style=for-the-badge">
 </p>
 
 <p align="center">
